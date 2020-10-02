@@ -1,0 +1,24 @@
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Code Generator.exe.config
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Code Generator.exe
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Code Generator.pdb
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR_Code_Generator.Form1.resources
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR_Code_Generator.Properties.Resources.resources
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.csproj.GenerateResource.cache
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.csproj.CoreCompileInputs.cache
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.csproj.CopyComplete
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.exe
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.pdb
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QRCoder.dll
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\zxing.dll
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\zxing.presentation.dll
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\zxing.pdb
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\zxing.xml
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\zxing.presentation.pdb
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\zxing.presentation.xml
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR_Code_Generator.PictureButton.resources
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.csprojAssemblyReference.cache
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Code Generator.exe.manifest
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Code Generator.application
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.exe.manifest
+C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.application
