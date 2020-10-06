@@ -113,8 +113,10 @@ namespace QR_Code_Generator
 
             if(QR_Type == QRType.Website)
             {
-                if(!textBox1.Text.Contains("https://") || !textBox1.Text.Contains("http://"))
-                QText = "https://" + textBox1.Text;
+                if(!textBox1.Text.StartsWith("https://") && !textBox1.Text.StartsWith("http://"))
+                    QText = "https://" + textBox1.Text;
+                else
+                    QText = textBox1.Text;
             }
 
             if (QR_Type == QRType.Email)
