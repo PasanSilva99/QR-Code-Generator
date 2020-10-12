@@ -45,7 +45,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(41)))), ((int)(((byte)(0)))));
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(53)))), ((int)(((byte)(77)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
@@ -109,7 +109,7 @@
             // 
             this.btn_text.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.btn_text.Image_ = global::QR_Code_Generator.Properties.Resources.icons8_text_32px;
-            this.btn_text.Location = new System.Drawing.Point(324, 12);
+            this.btn_text.Location = new System.Drawing.Point(12, 12);
             this.btn_text.Name = "btn_text";
             this.btn_text.Size = new System.Drawing.Size(150, 33);
             this.btn_text.TabIndex = 4;
@@ -129,7 +129,7 @@
             // 
             this.btn_web.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(156)))), ((int)(((byte)(18)))));
             this.btn_web.Image_ = global::QR_Code_Generator.Properties.Resources.icons8_website_80px;
-            this.btn_web.Location = new System.Drawing.Point(12, 12);
+            this.btn_web.Location = new System.Drawing.Point(324, 12);
             this.btn_web.Name = "btn_web";
             this.btn_web.Size = new System.Drawing.Size(150, 33);
             this.btn_web.TabIndex = 2;
@@ -151,7 +151,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "QR Code Genorator";
+            this.Text = "QR Code Generator";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

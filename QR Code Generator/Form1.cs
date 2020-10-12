@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ZXing.Common.Detector;
 
 namespace QR_Code_Generator
 {
@@ -24,7 +25,6 @@ namespace QR_Code_Generator
         QRType QR_Type = new QRType();
 
         String QText = "";
-
         string color;
 
         public Form1()
@@ -42,9 +42,12 @@ namespace QR_Code_Generator
 
         private void Text_Click4(object sender, EventArgs e)
         {
+            // Choose the color of the QR Code
             if(colorDialog1.ShowDialog() == DialogResult.OK)
             {
-                color = colorDialog1.Color.Name;
+                // To convert the color in HEX
+                color = "#" + (colorDialog1.Color.ToArgb() & 0x00FFFFFF).ToString("X6");
+                textBox1_TextChanged(this, new EventArgs());
             }
         }
 
@@ -85,7 +88,6 @@ namespace QR_Code_Generator
                               System.Drawing.Imaging.ImageFormat.Gif);
                             break;
                     }
-
                     fs.Close();
                 }
             }
@@ -96,19 +98,17 @@ namespace QR_Code_Generator
         
         }
 
-        
+        private void Text_Click1(object sender, EventArgs e)
+        {
+            textBox1.BackColor = Color.FromArgb(18, 53, 77);
+            QR_Type = QRType.Text;
+            this.ActiveControl = textBox1;
+        }
 
         private void Text_Click2(object sender, EventArgs e)
         {
             textBox1.BackColor = Color.FromArgb(11, 46, 25);
             QR_Type = QRType.Email;
-            this.ActiveControl = textBox1;
-        }
-
-        private void Text_Click1(object sender, EventArgs e)
-        {
-            textBox1.BackColor = Color.FromArgb(18, 53, 77);
-            QR_Type = QRType.Text;
             this.ActiveControl = textBox1;
         }
 
@@ -146,7 +146,7 @@ namespace QR_Code_Generator
                 QRCoder.QRCodeGenerator qR = new QRCoder.QRCodeGenerator();
                 var Data = qR.CreateQrCode(QText, QRCoder.QRCodeGenerator.ECCLevel.H);
                 var code = new QRCoder.QRCode(Data);
-                pictureBox1.Image = code.GetGraphic(50);
+                pictureBox1.Image = code.GetGraphic(50, color, "#FFFFFF", true);
             }
             catch(Exception ex)
             {
