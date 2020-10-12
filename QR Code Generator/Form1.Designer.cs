@@ -32,12 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.btn_color = new QR_Code_Generator.PictureButton();
             this.btn_save = new QR_Code_Generator.PictureButton();
             this.btn_text = new QR_Code_Generator.PictureButton();
             this.btn_email = new QR_Code_Generator.PictureButton();
             this.btn_web = new QR_Code_Generator.PictureButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +47,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(41)))), ((int)(((byte)(0)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(12, 51);
             this.textBox1.Multiline = true;
@@ -69,13 +71,37 @@
             this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseHover += new System.EventHandler(this.button1_MouseHover);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.pictureBox1.Location = new System.Drawing.Point(480, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(290, 298);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.ToolTipTitle = "Feedback";
+            // 
+            // btn_color
+            // 
+            this.btn_color.BackColor = System.Drawing.Color.SpringGreen;
+            this.btn_color.Image_ = global::QR_Code_Generator.Properties.Resources.icons8_cursor_80px;
+            this.btn_color.Location = new System.Drawing.Point(480, 316);
+            this.btn_color.Name = "btn_color";
+            this.btn_color.Size = new System.Drawing.Size(102, 38);
+            this.btn_color.TabIndex = 7;
+            this.btn_color.Text_ = "Color";
+            // 
             // btn_save
             // 
-            this.btn_save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.btn_save.BackColor = System.Drawing.Color.SpringGreen;
             this.btn_save.Image_ = global::QR_Code_Generator.Properties.Resources.icons8_save_80px;
-            this.btn_save.Location = new System.Drawing.Point(480, 316);
+            this.btn_save.Location = new System.Drawing.Point(624, 316);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(246, 38);
+            this.btn_save.Size = new System.Drawing.Size(102, 38);
             this.btn_save.TabIndex = 5;
             this.btn_save.Text_ = "Save";
             // 
@@ -109,26 +135,13 @@
             this.btn_web.TabIndex = 2;
             this.btn_web.Text_ = "Website";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.pictureBox1.Location = new System.Drawing.Point(480, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(290, 298);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // toolTip1
-            // 
-            this.toolTip1.ToolTipTitle = "Feedback";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(781, 366);
+            this.Controls.Add(this.btn_color);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.btn_text);
@@ -155,6 +168,8 @@
         private PictureButton btn_save;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private PictureButton btn_color;
     }
 }
 

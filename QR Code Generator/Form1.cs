@@ -14,7 +14,6 @@ namespace QR_Code_Generator
 {
     public partial class Form1 : Form
     {
-
         enum QRType
         {
             Website,
@@ -25,16 +24,28 @@ namespace QR_Code_Generator
         QRType QR_Type = new QRType();
 
         String QText = "";
+
+        string color;
+
         public Form1()
         {
             InitializeComponent();
             
             QR_Type = QRType.Website;
+
             btn_web.Text.Click += Text_Click;
             btn_text.Text.Click += Text_Click1;
             btn_email.Text.Click += Text_Click2;
-
             btn_save.Text.Click += Text_Click3;
+            btn_color.Text.Click += Text_Click4;
+        }
+
+        private void Text_Click4(object sender, EventArgs e)
+        {
+            if(colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                color = colorDialog1.Color.Name;
+            }
         }
 
         private void Text_Click3(object sender, EventArgs e)
