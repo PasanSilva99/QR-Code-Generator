@@ -22,3 +22,27 @@ C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Cod
 C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\bin\Debug\QR Code Generator.application
 C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.exe.manifest
 C:\Users\pasan\source\repos\QR Code Generator\QR Code Generator\obj\Debug\QR Code Generator.application
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.csprojAssemblyReference.cache
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR_Code_Generator.Form1.resources
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR_Code_Generator.PictureButton.resources
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR_Code_Generator.Properties.Resources.resources
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.csproj.GenerateResource.cache
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.csproj.CoreCompileInputs.cache
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.exe
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.pdb
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\QR Code Generator.exe.config
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\QR Code Generator.exe.manifest
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\QR Code Generator.application
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\QR Code Generator.exe
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\QR Code Generator.pdb
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\QRCoder.dll
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\zxing.dll
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\zxing.presentation.dll
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\zxing.pdb
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\zxing.xml
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\zxing.presentation.pdb
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\bin\Debug\zxing.presentation.xml
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.exe.manifest
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.application
+C:\Users\Paolo\Documents\Progetti\Hacktoberfest 2020\QR-Code-Generator\QR Code Generator\obj\Debug\QR Code Generator.csproj.CopyComplete

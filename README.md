@@ -1,9 +1,4 @@
-
-<h1 align="center">
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/PasanSilva99/QR-Code-Generator/master/.github/demo.gif" alt="Image" width="100%" />
-  </p>
-</h1>
+![Image](.github/demo.gif)
 
  ## ❔ About the QR-Code-Generator
 
